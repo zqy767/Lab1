@@ -142,9 +142,13 @@ public class Poly implements Cloneable{
         }
     }
 
-    private String sym_name (String s) {
+    private String sym_name (String s)throws Exception {
+        Union u = new Union();
         char ch = first_string(s);
-        if (ch == '(') return s.substring(0,(find_right_braket(s)+1));
+        if (ch == '(') {
+            u.turn_string_to_list(s.substring(1,(find_right_braket(s))));
+            return "(".concat(u.list_to_string()).concat(")");
+        }
         else {
             int pos1 = s.indexOf('^');
             int pos2 = s.indexOf('(');
@@ -155,12 +159,12 @@ public class Poly implements Cloneable{
         }
     }
 
-    private int symbol_add_to_list(String s){
+    private int symbol_add_to_list(String s) throws Exception{
         String name = sym_name(s);
         return have_power_or_not(name,s.substring(name.length()));
     }
 
-    private void start_with_symbol (String string)  {
+    private void start_with_symbol (String string)  throws Exception{
         for (int i = 0; i<string.length();)
             i +=symbol_add_to_list (string.substring(i));
     }

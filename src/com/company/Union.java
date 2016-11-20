@@ -7,9 +7,9 @@ import java.util.Objects;
  * Created by forandroid on 16-9-23.
  */
 public class Union implements Cloneable{
-    ArrayList<Poly> ans;
+    public ArrayList<Poly> ans;
 
-    Union () {
+    public Union () {
         ans = new ArrayList<Poly>();
     }
 
@@ -248,5 +248,6 @@ public class Union implements Cloneable{
         return list_to_string();
 
     }
+
 
 }
