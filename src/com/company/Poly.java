@@ -146,8 +146,7 @@ public class Poly implements Cloneable{
         Union u = new Union();
         char ch = first_string(s);
         if (ch == '(') {
-            u.turn_string_to_list(s.substring(1,(find_right_braket(s))));
-            return "(".concat(u.list_to_string()).concat(")");
+            return s.substring(0,(find_right_braket(s))+1);
         }
         else {
             int pos1 = s.indexOf('^');

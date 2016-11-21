@@ -49,37 +49,7 @@ public void testTurn_string_to_list() throws Exception {
 * 
 */ 
 @Test
-public void testList_to_string() throws Exception { 
-//TODO: Test goes here...
-    Union u = new Union();
-    u.turn_string_to_list("a+b");
-    Assert.assertEquals("1*a+1*b" ,u.list_to_string());
-    u.ans.clear();
-
-    u.turn_string_to_list("a^2+ab^2");
-    Assert.assertEquals("1*a^2+1*ab^2" ,u.list_to_string());
-    u.ans.clear();
-
-    u.turn_string_to_list("3ac^2+2*ab^2");
-    Assert.assertEquals("3*a*c^2+2*ab^2" ,u.list_to_string());
-    u.ans.clear();
-
-    u.turn_string_to_list("(2x+y)^2");
-    Assert.assertEquals("1*(2x+y)^2" ,u.list_to_string());
-    u.ans.clear();
-
-    try {
-        u.turn_string_to_list("(2+xy))");
-    }
-        catch (Exception e){}
-    Assert.assertEquals("0" ,u.list_to_string());
-    u.ans.clear();
-    try {
-    u.turn_string_to_list("(2+3^x)");
-    }
-    catch (Exception e){}
-    Assert.assertEquals("0" ,u.list_to_string());
-    u.ans.clear();
+public void testList_to_string() throws Exception {
 }
 
 /** 
@@ -89,7 +59,9 @@ public void testList_to_string() throws Exception {
 */ 
 @Test
 public void testSimply() throws Exception { 
-//TODO: Test goes here... 
+//TODO: Test goes here...
+
+
 } 
 
 /** 
@@ -98,8 +70,27 @@ public void testSimply() throws Exception {
 * 
 */ 
 @Test
-public void testDerivative() throws Exception { 
-//TODO: Test goes here... 
+public void testDerivative() throws Exception {
+    Union u = new Union();
+    u.turn_string_to_list("2x+3*y");
+    Assert.assertEquals("0" ,u.derivative("z"));
+    u.ans.clear();
+
+    u.turn_string_to_list("x+0*abc");
+    Assert.assertEquals("0" ,u.derivative("abc"));
+    u.ans.clear();
+
+    u.turn_string_to_list("x+2y");
+    Assert.assertEquals("2" ,u.derivative("y"));
+    u.ans.clear();
+
+    u.turn_string_to_list("0*(x+2y)^2");
+    Assert.assertEquals("0" ,u.derivative("y"));
+    u.ans.clear();
+
+    u.turn_string_to_list("(x+2y)^2");
+    Assert.assertEquals("4*(x+2y)" ,u.derivative("y"));
+    u.ans.clear();
 } 
 
 

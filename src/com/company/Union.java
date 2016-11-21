@@ -208,7 +208,7 @@ public class Union implements Cloneable{
             String bracket_string = bracket.derivative(sym);
             try {
                 int pre = Integer.parseInt(bracket_string);
-                ans.prenum *= Math.pow(pre,it.power);
+                ans.prenum *= pre;
                 ans.prenum *= power_1_ot_not(ans,it);
                 if (ans.prenum == 0) return null;
             }catch (NumberFormatException e) {
