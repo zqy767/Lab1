@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a3c7553-44bf-410e-af4b-bfa862e61a6e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvalExpression/com/company/Poly$1.class" afterPath="$PROJECT_DIR$/out/production/EvalExpression/com/company/Poly$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvalExpression/com/company/Poly.class" afterPath="$PROJECT_DIR$/out/production/EvalExpression/com/company/Poly.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvalExpression/com/company/Union.class" afterPath="$PROJECT_DIR$/out/production/EvalExpression/com/company/Union.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvalExpression/test/com/company/UnionTest.class" afterPath="$PROJECT_DIR$/out/production/EvalExpression/test/com/company/UnionTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvalExpression.iml" afterPath="$PROJECT_DIR$/EvalExpression.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Poly.java" afterPath="$PROJECT_DIR$/src/com/company/Poly.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Union.java" afterPath="$PROJECT_DIR$/src/com/company/Union.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/com/company/UnionTest.java" afterPath="$PROJECT_DIR$/src/test/com/company/UnionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
     </list>
     <ignored path="EvalExpression.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,8 +39,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-364">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="312">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,33 +51,92 @@
       <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-94">
+            <state relative-caret-position="52">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Union.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Union.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Union.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="210" column="34" selection-start-line="210" selection-start-column="34" selection-end-line="210" selection-end-column="34" />
+            <state relative-caret-position="121">
+              <caret line="89" column="26" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#clone#0;class#Union#0" expanded="false" />
                 <element signature="class#morpheme_obj#0;class#Union#0" expanded="false" />
+                <element signature="method#split_morpheme#0;class#Union#0" expanded="false" />
                 <element signature="method#equals#0;class#Union#0" expanded="false" />
                 <element signature="method#merge_same_item#0;class#Union#0" expanded="false" />
+                <element signature="method#turn_string_to_list#0;class#Union#0" expanded="false" />
+                <element signature="method#list_to_string#0;class#Union#0" expanded="false" />
+                <element signature="method#symbol_to_number#0;class#Union#0" expanded="false" />
+                <element signature="method#simply#0;class#Union#0" expanded="false" />
+                <element signature="method#power_1_ot_not#0;class#Union#0" expanded="false" />
+                <element signature="method#derivative_single#0;class#Union#0" expanded="false" />
+                <element signature="method#derivative_to_poly#0;class#Union#0" expanded="false" />
+                <element signature="method#derivative#0;class#Union#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnionTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Select.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Select.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Poly.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Poly.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="195" column="25" selection-start-line="195" selection-start-column="25" selection-end-line="195" selection-end-column="26" />
+              <folding>
+                <element signature="method#clone#0;class#Poly#0" expanded="false" />
+                <element signature="method#Poly#0;class#Poly#0" expanded="false" />
+                <element signature="method#find_variable#0;class#Poly#0" expanded="false" />
+                <element signature="method#change_exp#0;class#Poly#0" expanded="false" />
+                <element signature="method#findnumber#0;class#Poly#0" expanded="false" />
+                <element signature="method#how_long_the_number#0;class#Poly#0" expanded="false" />
+                <element signature="method#find_right_braket#0;class#Poly#0" expanded="false" />
+                <element signature="method#have_power_or_not_judge#0;class#Poly#0" expanded="false" />
+                <element signature="method#number_add_to_list#0;class#Poly#0" expanded="false" />
+                <element signature="method#start_with_number#0;class#Poly#0" expanded="false" />
+                <element signature="method#sym_name#0;class#Poly#0" expanded="false" />
+                <element signature="method#symbol_add_to_list#0;class#Poly#0" expanded="false" />
+                <element signature="method#start_with_symbol#0;class#Poly#0" expanded="false" />
+                <element signature="method#minmor#0;class#Poly#0" expanded="false" />
+                <element signature="method#bracket_split#0;class#Poly#0" expanded="false" />
+                <element signature="method#remove#0;class#Poly#0" expanded="false" />
+                <element signature="method#print_out#0;class#Poly#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Var.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Var.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/company/UnionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="-1121">
               <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -97,9 +148,82 @@
       <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
         <entry file="jar:///usr/lib/jvm/java-8u11-sun/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
+            <state relative-caret-position="47996">
               <caret line="1917" column="0" selection-start-line="1917" selection-start-column="0" selection-end-line="1917" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#123856#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#4677#4678#0" expanded="false" />
+                <element signature="e#4717#4718#0" expanded="false" />
+                <element signature="e#5690#5691#0" expanded="false" />
+                <element signature="e#5753#5754#0" expanded="false" />
+                <element signature="e#12762#12763#0" expanded="false" />
+                <element signature="e#12814#12815#0" expanded="false" />
+                <element signature="e#18445#18446#0" expanded="false" />
+                <element signature="e#18498#18499#0" expanded="false" />
+                <element signature="e#20391#20392#0" expanded="false" />
+                <element signature="e#20435#20436#0" expanded="false" />
+                <element signature="e#21625#21626#0" expanded="false" />
+                <element signature="e#21705#21706#0" expanded="false" />
+                <element signature="e#22450#22451#0" expanded="false" />
+                <element signature="e#22485#22486#0" expanded="false" />
+                <element signature="e#22736#22737#0" expanded="false" />
+                <element signature="e#22776#22777#0" expanded="false" />
+                <element signature="e#29126#29127#0" expanded="false" />
+                <element signature="e#29197#29198#0" expanded="false" />
+                <element signature="e#36057#36058#0" expanded="false" />
+                <element signature="e#36123#36124#0" expanded="false" />
+                <element signature="e#38033#38034#0" expanded="false" />
+                <element signature="e#38087#38088#0" expanded="false" />
+                <element signature="e#47179#47180#0" expanded="false" />
+                <element signature="e#47243#47244#0" expanded="false" />
+                <element signature="e#55441#55442#0" expanded="false" />
+                <element signature="e#55485#55486#0" expanded="false" />
+                <element signature="e#56078#56079#0" expanded="false" />
+                <element signature="e#56155#56156#0" expanded="false" />
+                <element signature="e#58122#58123#0" expanded="false" />
+                <element signature="e#58159#58160#0" expanded="false" />
+                <element signature="e#62501#62502#0" expanded="false" />
+                <element signature="e#62557#62558#0" expanded="false" />
+                <element signature="e#66098#66099#0" expanded="false" />
+                <element signature="e#66136#66137#0" expanded="false" />
+                <element signature="e#70390#70391#0" expanded="false" />
+                <element signature="e#70443#70444#0" expanded="false" />
+                <element signature="e#77881#77882#0" expanded="false" />
+                <element signature="e#77940#77941#0" expanded="false" />
+                <element signature="e#82257#82258#0" expanded="false" />
+                <element signature="e#82308#82309#0" expanded="false" />
+                <element signature="e#82612#82613#0" expanded="false" />
+                <element signature="e#82661#82662#0" expanded="false" />
+                <element signature="e#94239#94240#0" expanded="false" />
+                <element signature="e#94277#94278#0" expanded="false" />
+                <element signature="e#104220#104221#0" expanded="false" />
+                <element signature="e#104275#104276#0" expanded="false" />
+                <element signature="e#110741#110742#0" expanded="false" />
+                <element signature="e#110796#110797#0" expanded="false" />
+                <element signature="e#112888#112889#0" expanded="false" />
+                <element signature="e#112915#112916#0" expanded="false" />
+                <element signature="e#117438#117439#0" expanded="false" />
+                <element signature="e#117500#117501#0" expanded="false" />
+                <element signature="e#117950#117951#0" expanded="false" />
+                <element signature="e#117989#117990#0" expanded="false" />
+                <element signature="e#119001#119002#0" expanded="false" />
+                <element signature="e#119055#119056#0" expanded="false" />
+                <element signature="e#119704#119705#0" expanded="false" />
+                <element signature="e#119758#119759#0" expanded="false" />
+                <element signature="e#120027#120028#0" expanded="false" />
+                <element signature="e#120066#120067#0" expanded="false" />
+                <element signature="e#120434#120435#0" expanded="false" />
+                <element signature="e#120477#120478#0" expanded="false" />
+                <element signature="e#121272#121273#0" expanded="false" />
+                <element signature="e#121314#121315#0" expanded="false" />
+                <element signature="e#121729#121730#0" expanded="false" />
+                <element signature="e#121768#121769#0" expanded="false" />
+                <element signature="e#122190#122191#0" expanded="false" />
+                <element signature="e#122230#122231#0" expanded="false" />
+                <element signature="e#122660#122661#0" expanded="false" />
+                <element signature="e#122701#122702#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,11 +251,12 @@
         <option value="$PROJECT_DIR$/src/com/company/union.java" />
         <option value="$PROJECT_DIR$/src/com/company/Var.java" />
         <option value="$PROJECT_DIR$/src/com/company/Item.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/com/company/Poly.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Union.java" />
         <option value="$PROJECT_DIR$/src/test/com/company/UnionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Union.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Select.java" />
       </list>
     </option>
   </component>
@@ -180,8 +305,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,6 +354,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -758,13 +887,11 @@
       <workItem from="1479626880891" duration="2040000" />
       <workItem from="1479631686601" duration="4288000" />
       <workItem from="1479717728654" duration="4955000" />
+      <workItem from="1480150806669" duration="2926000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UnionTest_testDerivative - 2016.11.21 at 18h 02m 04s.xml">
-      <configuration name="UnionTest.testDerivative" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UnionTest_testDerivative - 2016.11.21 at 18h 02m 49s.xml">
       <configuration name="UnionTest.testDerivative" configurationId="JUnit" />
     </history-entry>
@@ -792,9 +919,12 @@
     <history-entry file="UnionTest_testDerivative - 2016.11.21 at 18h 26m 35s.xml">
       <configuration name="UnionTest.testDerivative" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UnionTest_testDerivative - 2016.11.26 at 17h 33m 57s.xml">
+      <configuration name="UnionTest.testDerivative" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69718000" />
+    <option name="totallyTimeSpent" value="72644000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -807,11 +937,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.4940048" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291536" sideWeight="0.16147083" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39028212" sideWeight="0.121502794" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -825,15 +955,13 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.49080735" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30877742" sideWeight="0.4716227" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17665868" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" x="390" y="179" width="651" height="470" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39028212" sideWeight="0.8784972" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.4940048" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.49720225" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="EvalExpression" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291536" sideWeight="0.83852917" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="EvalExpression" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.833733" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19664268" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.49720225" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.49720225" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.49720225" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -842,6 +970,8 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17665868" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" x="390" y="179" width="651" height="470" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.49720225" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -893,7 +1023,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="113" />
+      <option name="time" value="115" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -902,6 +1032,97 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/com/company/UnionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1222">
+          <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8u11-sun/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49842">
+          <caret line="1917" column="0" selection-start-line="1917" selection-start-column="0" selection-end-line="1917" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#123856#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4677#4678#0" expanded="false" />
+            <element signature="e#4717#4718#0" expanded="false" />
+            <element signature="e#5690#5691#0" expanded="false" />
+            <element signature="e#5753#5754#0" expanded="false" />
+            <element signature="e#12762#12763#0" expanded="false" />
+            <element signature="e#12814#12815#0" expanded="false" />
+            <element signature="e#18445#18446#0" expanded="false" />
+            <element signature="e#18498#18499#0" expanded="false" />
+            <element signature="e#20391#20392#0" expanded="false" />
+            <element signature="e#20435#20436#0" expanded="false" />
+            <element signature="e#21625#21626#0" expanded="false" />
+            <element signature="e#21705#21706#0" expanded="false" />
+            <element signature="e#22450#22451#0" expanded="false" />
+            <element signature="e#22485#22486#0" expanded="false" />
+            <element signature="e#22736#22737#0" expanded="false" />
+            <element signature="e#22776#22777#0" expanded="false" />
+            <element signature="e#29126#29127#0" expanded="false" />
+            <element signature="e#29197#29198#0" expanded="false" />
+            <element signature="e#36057#36058#0" expanded="false" />
+            <element signature="e#36123#36124#0" expanded="false" />
+            <element signature="e#38033#38034#0" expanded="false" />
+            <element signature="e#38087#38088#0" expanded="false" />
+            <element signature="e#47179#47180#0" expanded="false" />
+            <element signature="e#47243#47244#0" expanded="false" />
+            <element signature="e#55441#55442#0" expanded="false" />
+            <element signature="e#55485#55486#0" expanded="false" />
+            <element signature="e#56078#56079#0" expanded="false" />
+            <element signature="e#56155#56156#0" expanded="false" />
+            <element signature="e#58122#58123#0" expanded="false" />
+            <element signature="e#58159#58160#0" expanded="false" />
+            <element signature="e#62501#62502#0" expanded="false" />
+            <element signature="e#62557#62558#0" expanded="false" />
+            <element signature="e#66098#66099#0" expanded="false" />
+            <element signature="e#66136#66137#0" expanded="false" />
+            <element signature="e#70390#70391#0" expanded="false" />
+            <element signature="e#70443#70444#0" expanded="false" />
+            <element signature="e#77881#77882#0" expanded="false" />
+            <element signature="e#77940#77941#0" expanded="false" />
+            <element signature="e#82257#82258#0" expanded="false" />
+            <element signature="e#82308#82309#0" expanded="false" />
+            <element signature="e#82612#82613#0" expanded="false" />
+            <element signature="e#82661#82662#0" expanded="false" />
+            <element signature="e#94239#94240#0" expanded="false" />
+            <element signature="e#94277#94278#0" expanded="false" />
+            <element signature="e#104220#104221#0" expanded="false" />
+            <element signature="e#104275#104276#0" expanded="false" />
+            <element signature="e#110741#110742#0" expanded="false" />
+            <element signature="e#110796#110797#0" expanded="false" />
+            <element signature="e#112888#112889#0" expanded="false" />
+            <element signature="e#112915#112916#0" expanded="false" />
+            <element signature="e#117438#117439#0" expanded="false" />
+            <element signature="e#117500#117501#0" expanded="false" />
+            <element signature="e#117950#117951#0" expanded="false" />
+            <element signature="e#117989#117990#0" expanded="false" />
+            <element signature="e#119001#119002#0" expanded="false" />
+            <element signature="e#119055#119056#0" expanded="false" />
+            <element signature="e#119704#119705#0" expanded="false" />
+            <element signature="e#119758#119759#0" expanded="false" />
+            <element signature="e#120027#120028#0" expanded="false" />
+            <element signature="e#120066#120067#0" expanded="false" />
+            <element signature="e#120434#120435#0" expanded="false" />
+            <element signature="e#120477#120478#0" expanded="false" />
+            <element signature="e#121272#121273#0" expanded="false" />
+            <element signature="e#121314#121315#0" expanded="false" />
+            <element signature="e#121729#121730#0" expanded="false" />
+            <element signature="e#121768#121769#0" expanded="false" />
+            <element signature="e#122190#122191#0" expanded="false" />
+            <element signature="e#122230#122231#0" expanded="false" />
+            <element signature="e#122660#122661#0" expanded="false" />
+            <element signature="e#122701#122702#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -928,8 +1149,17 @@
             <element signature="imports" expanded="true" />
             <element signature="method#clone#0;class#Union#0" expanded="false" />
             <element signature="class#morpheme_obj#0;class#Union#0" expanded="false" />
+            <element signature="method#split_morpheme#0;class#Union#0" expanded="false" />
             <element signature="method#equals#0;class#Union#0" expanded="false" />
             <element signature="method#merge_same_item#0;class#Union#0" expanded="false" />
+            <element signature="method#turn_string_to_list#0;class#Union#0" expanded="false" />
+            <element signature="method#list_to_string#0;class#Union#0" expanded="false" />
+            <element signature="method#symbol_to_number#0;class#Union#0" expanded="false" />
+            <element signature="method#simply#0;class#Union#0" expanded="false" />
+            <element signature="method#power_1_ot_not#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative_single#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative_to_poly#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative#0;class#Union#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -949,6 +1179,9 @@
         <state relative-caret-position="1976">
           <caret line="149" column="62" selection-start-line="149" selection-start-column="62" selection-end-line="149" selection-end-column="62" />
           <folding>
+            <element signature="method#clone#0;class#Poly#0" expanded="false" />
+            <element signature="method#Poly#0;class#Poly#0" expanded="false" />
+            <element signature="method#find_variable#0;class#Poly#0" expanded="false" />
             <element signature="method#change_exp#0;class#Poly#0" expanded="false" />
             <element signature="method#findnumber#0;class#Poly#0" expanded="false" />
             <element signature="method#how_long_the_number#0;class#Poly#0" expanded="false" />
@@ -956,7 +1189,12 @@
             <element signature="method#have_power_or_not_judge#0;class#Poly#0" expanded="false" />
             <element signature="method#number_add_to_list#0;class#Poly#0" expanded="false" />
             <element signature="method#start_with_number#0;class#Poly#0" expanded="false" />
+            <element signature="method#sym_name#0;class#Poly#0" expanded="false" />
+            <element signature="method#symbol_add_to_list#0;class#Poly#0" expanded="false" />
+            <element signature="method#start_with_symbol#0;class#Poly#0" expanded="false" />
+            <element signature="method#minmor#0;class#Poly#0" expanded="false" />
             <element signature="method#bracket_split#0;class#Poly#0" expanded="false" />
+            <element signature="method#remove#0;class#Poly#0" expanded="false" />
             <element signature="method#print_out#0;class#Poly#0" expanded="false" />
           </folding>
         </state>
@@ -996,8 +1234,17 @@
             <element signature="imports" expanded="true" />
             <element signature="method#clone#0;class#Union#0" expanded="false" />
             <element signature="class#morpheme_obj#0;class#Union#0" expanded="false" />
+            <element signature="method#split_morpheme#0;class#Union#0" expanded="false" />
             <element signature="method#equals#0;class#Union#0" expanded="false" />
             <element signature="method#merge_same_item#0;class#Union#0" expanded="false" />
+            <element signature="method#turn_string_to_list#0;class#Union#0" expanded="false" />
+            <element signature="method#list_to_string#0;class#Union#0" expanded="false" />
+            <element signature="method#symbol_to_number#0;class#Union#0" expanded="false" />
+            <element signature="method#simply#0;class#Union#0" expanded="false" />
+            <element signature="method#power_1_ot_not#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative_single#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative_to_poly#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative#0;class#Union#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1007,6 +1254,9 @@
         <state relative-caret-position="494">
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
+            <element signature="method#clone#0;class#Poly#0" expanded="false" />
+            <element signature="method#Poly#0;class#Poly#0" expanded="false" />
+            <element signature="method#find_variable#0;class#Poly#0" expanded="false" />
             <element signature="method#change_exp#0;class#Poly#0" expanded="false" />
             <element signature="method#findnumber#0;class#Poly#0" expanded="false" />
             <element signature="method#how_long_the_number#0;class#Poly#0" expanded="false" />
@@ -1014,7 +1264,12 @@
             <element signature="method#have_power_or_not_judge#0;class#Poly#0" expanded="false" />
             <element signature="method#number_add_to_list#0;class#Poly#0" expanded="false" />
             <element signature="method#start_with_number#0;class#Poly#0" expanded="false" />
+            <element signature="method#sym_name#0;class#Poly#0" expanded="false" />
+            <element signature="method#symbol_add_to_list#0;class#Poly#0" expanded="false" />
+            <element signature="method#start_with_symbol#0;class#Poly#0" expanded="false" />
+            <element signature="method#minmor#0;class#Poly#0" expanded="false" />
             <element signature="method#bracket_split#0;class#Poly#0" expanded="false" />
+            <element signature="method#remove#0;class#Poly#0" expanded="false" />
             <element signature="method#print_out#0;class#Poly#0" expanded="false" />
           </folding>
         </state>
@@ -1046,8 +1301,17 @@
             <element signature="imports" expanded="true" />
             <element signature="method#clone#0;class#Union#0" expanded="false" />
             <element signature="class#morpheme_obj#0;class#Union#0" expanded="false" />
+            <element signature="method#split_morpheme#0;class#Union#0" expanded="false" />
             <element signature="method#equals#0;class#Union#0" expanded="false" />
             <element signature="method#merge_same_item#0;class#Union#0" expanded="false" />
+            <element signature="method#turn_string_to_list#0;class#Union#0" expanded="false" />
+            <element signature="method#list_to_string#0;class#Union#0" expanded="false" />
+            <element signature="method#symbol_to_number#0;class#Union#0" expanded="false" />
+            <element signature="method#simply#0;class#Union#0" expanded="false" />
+            <element signature="method#power_1_ot_not#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative_single#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative_to_poly#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative#0;class#Union#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1057,6 +1321,9 @@
         <state relative-caret-position="494">
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
+            <element signature="method#clone#0;class#Poly#0" expanded="false" />
+            <element signature="method#Poly#0;class#Poly#0" expanded="false" />
+            <element signature="method#find_variable#0;class#Poly#0" expanded="false" />
             <element signature="method#change_exp#0;class#Poly#0" expanded="false" />
             <element signature="method#findnumber#0;class#Poly#0" expanded="false" />
             <element signature="method#how_long_the_number#0;class#Poly#0" expanded="false" />
@@ -1064,7 +1331,12 @@
             <element signature="method#have_power_or_not_judge#0;class#Poly#0" expanded="false" />
             <element signature="method#number_add_to_list#0;class#Poly#0" expanded="false" />
             <element signature="method#start_with_number#0;class#Poly#0" expanded="false" />
+            <element signature="method#sym_name#0;class#Poly#0" expanded="false" />
+            <element signature="method#symbol_add_to_list#0;class#Poly#0" expanded="false" />
+            <element signature="method#start_with_symbol#0;class#Poly#0" expanded="false" />
+            <element signature="method#minmor#0;class#Poly#0" expanded="false" />
             <element signature="method#bracket_split#0;class#Poly#0" expanded="false" />
+            <element signature="method#remove#0;class#Poly#0" expanded="false" />
             <element signature="method#print_out#0;class#Poly#0" expanded="false" />
           </folding>
         </state>
@@ -1096,8 +1368,17 @@
             <element signature="imports" expanded="true" />
             <element signature="method#clone#0;class#Union#0" expanded="false" />
             <element signature="class#morpheme_obj#0;class#Union#0" expanded="false" />
+            <element signature="method#split_morpheme#0;class#Union#0" expanded="false" />
             <element signature="method#equals#0;class#Union#0" expanded="false" />
             <element signature="method#merge_same_item#0;class#Union#0" expanded="false" />
+            <element signature="method#turn_string_to_list#0;class#Union#0" expanded="false" />
+            <element signature="method#list_to_string#0;class#Union#0" expanded="false" />
+            <element signature="method#symbol_to_number#0;class#Union#0" expanded="false" />
+            <element signature="method#simply#0;class#Union#0" expanded="false" />
+            <element signature="method#power_1_ot_not#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative_single#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative_to_poly#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative#0;class#Union#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1107,6 +1388,9 @@
         <state relative-caret-position="598">
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
+            <element signature="method#clone#0;class#Poly#0" expanded="false" />
+            <element signature="method#Poly#0;class#Poly#0" expanded="false" />
+            <element signature="method#find_variable#0;class#Poly#0" expanded="false" />
             <element signature="method#change_exp#0;class#Poly#0" expanded="false" />
             <element signature="method#findnumber#0;class#Poly#0" expanded="false" />
             <element signature="method#how_long_the_number#0;class#Poly#0" expanded="false" />
@@ -1114,7 +1398,12 @@
             <element signature="method#have_power_or_not_judge#0;class#Poly#0" expanded="false" />
             <element signature="method#number_add_to_list#0;class#Poly#0" expanded="false" />
             <element signature="method#start_with_number#0;class#Poly#0" expanded="false" />
+            <element signature="method#sym_name#0;class#Poly#0" expanded="false" />
+            <element signature="method#symbol_add_to_list#0;class#Poly#0" expanded="false" />
+            <element signature="method#start_with_symbol#0;class#Poly#0" expanded="false" />
+            <element signature="method#minmor#0;class#Poly#0" expanded="false" />
             <element signature="method#bracket_split#0;class#Poly#0" expanded="false" />
+            <element signature="method#remove#0;class#Poly#0" expanded="false" />
             <element signature="method#print_out#0;class#Poly#0" expanded="false" />
           </folding>
         </state>
@@ -1146,8 +1435,17 @@
             <element signature="imports" expanded="true" />
             <element signature="method#clone#0;class#Union#0" expanded="false" />
             <element signature="class#morpheme_obj#0;class#Union#0" expanded="false" />
+            <element signature="method#split_morpheme#0;class#Union#0" expanded="false" />
             <element signature="method#equals#0;class#Union#0" expanded="false" />
             <element signature="method#merge_same_item#0;class#Union#0" expanded="false" />
+            <element signature="method#turn_string_to_list#0;class#Union#0" expanded="false" />
+            <element signature="method#list_to_string#0;class#Union#0" expanded="false" />
+            <element signature="method#symbol_to_number#0;class#Union#0" expanded="false" />
+            <element signature="method#simply#0;class#Union#0" expanded="false" />
+            <element signature="method#power_1_ot_not#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative_single#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative_to_poly#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative#0;class#Union#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1157,6 +1455,9 @@
         <state relative-caret-position="494">
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
+            <element signature="method#clone#0;class#Poly#0" expanded="false" />
+            <element signature="method#Poly#0;class#Poly#0" expanded="false" />
+            <element signature="method#find_variable#0;class#Poly#0" expanded="false" />
             <element signature="method#change_exp#0;class#Poly#0" expanded="false" />
             <element signature="method#findnumber#0;class#Poly#0" expanded="false" />
             <element signature="method#how_long_the_number#0;class#Poly#0" expanded="false" />
@@ -1164,7 +1465,12 @@
             <element signature="method#have_power_or_not_judge#0;class#Poly#0" expanded="false" />
             <element signature="method#number_add_to_list#0;class#Poly#0" expanded="false" />
             <element signature="method#start_with_number#0;class#Poly#0" expanded="false" />
+            <element signature="method#sym_name#0;class#Poly#0" expanded="false" />
+            <element signature="method#symbol_add_to_list#0;class#Poly#0" expanded="false" />
+            <element signature="method#start_with_symbol#0;class#Poly#0" expanded="false" />
+            <element signature="method#minmor#0;class#Poly#0" expanded="false" />
             <element signature="method#bracket_split#0;class#Poly#0" expanded="false" />
+            <element signature="method#remove#0;class#Poly#0" expanded="false" />
             <element signature="method#print_out#0;class#Poly#0" expanded="false" />
           </folding>
         </state>
@@ -1196,8 +1502,17 @@
             <element signature="imports" expanded="true" />
             <element signature="method#clone#0;class#Union#0" expanded="false" />
             <element signature="class#morpheme_obj#0;class#Union#0" expanded="false" />
+            <element signature="method#split_morpheme#0;class#Union#0" expanded="false" />
             <element signature="method#equals#0;class#Union#0" expanded="false" />
             <element signature="method#merge_same_item#0;class#Union#0" expanded="false" />
+            <element signature="method#turn_string_to_list#0;class#Union#0" expanded="false" />
+            <element signature="method#list_to_string#0;class#Union#0" expanded="false" />
+            <element signature="method#symbol_to_number#0;class#Union#0" expanded="false" />
+            <element signature="method#simply#0;class#Union#0" expanded="false" />
+            <element signature="method#power_1_ot_not#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative_single#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative_to_poly#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative#0;class#Union#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1207,6 +1522,9 @@
         <state relative-caret-position="494">
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
+            <element signature="method#clone#0;class#Poly#0" expanded="false" />
+            <element signature="method#Poly#0;class#Poly#0" expanded="false" />
+            <element signature="method#find_variable#0;class#Poly#0" expanded="false" />
             <element signature="method#change_exp#0;class#Poly#0" expanded="false" />
             <element signature="method#findnumber#0;class#Poly#0" expanded="false" />
             <element signature="method#how_long_the_number#0;class#Poly#0" expanded="false" />
@@ -1214,7 +1532,12 @@
             <element signature="method#have_power_or_not_judge#0;class#Poly#0" expanded="false" />
             <element signature="method#number_add_to_list#0;class#Poly#0" expanded="false" />
             <element signature="method#start_with_number#0;class#Poly#0" expanded="false" />
+            <element signature="method#sym_name#0;class#Poly#0" expanded="false" />
+            <element signature="method#symbol_add_to_list#0;class#Poly#0" expanded="false" />
+            <element signature="method#start_with_symbol#0;class#Poly#0" expanded="false" />
+            <element signature="method#minmor#0;class#Poly#0" expanded="false" />
             <element signature="method#bracket_split#0;class#Poly#0" expanded="false" />
+            <element signature="method#remove#0;class#Poly#0" expanded="false" />
             <element signature="method#print_out#0;class#Poly#0" expanded="false" />
           </folding>
         </state>
@@ -1245,6 +1568,9 @@
         <state relative-caret-position="4342">
           <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
           <folding>
+            <element signature="method#clone#0;class#Poly#0" expanded="false" />
+            <element signature="method#Poly#0;class#Poly#0" expanded="false" />
+            <element signature="method#find_variable#0;class#Poly#0" expanded="false" />
             <element signature="method#change_exp#0;class#Poly#0" expanded="false" />
             <element signature="method#findnumber#0;class#Poly#0" expanded="false" />
             <element signature="method#how_long_the_number#0;class#Poly#0" expanded="false" />
@@ -1252,7 +1578,12 @@
             <element signature="method#have_power_or_not_judge#0;class#Poly#0" expanded="false" />
             <element signature="method#number_add_to_list#0;class#Poly#0" expanded="false" />
             <element signature="method#start_with_number#0;class#Poly#0" expanded="false" />
+            <element signature="method#sym_name#0;class#Poly#0" expanded="false" />
+            <element signature="method#symbol_add_to_list#0;class#Poly#0" expanded="false" />
+            <element signature="method#start_with_symbol#0;class#Poly#0" expanded="false" />
+            <element signature="method#minmor#0;class#Poly#0" expanded="false" />
             <element signature="method#bracket_split#0;class#Poly#0" expanded="false" />
+            <element signature="method#remove#0;class#Poly#0" expanded="false" />
             <element signature="method#print_out#0;class#Poly#0" expanded="false" />
           </folding>
         </state>
@@ -1273,6 +1604,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#clone#0;class#Poly#0" expanded="false" />
+            <element signature="method#Poly#0;class#Poly#0" expanded="false" />
+            <element signature="method#find_variable#0;class#Poly#0" expanded="false" />
             <element signature="method#change_exp#0;class#Poly#0" expanded="false" />
             <element signature="method#findnumber#0;class#Poly#0" expanded="false" />
             <element signature="method#how_long_the_number#0;class#Poly#0" expanded="false" />
@@ -1280,7 +1614,12 @@
             <element signature="method#have_power_or_not_judge#0;class#Poly#0" expanded="false" />
             <element signature="method#number_add_to_list#0;class#Poly#0" expanded="false" />
             <element signature="method#start_with_number#0;class#Poly#0" expanded="false" />
+            <element signature="method#sym_name#0;class#Poly#0" expanded="false" />
+            <element signature="method#symbol_add_to_list#0;class#Poly#0" expanded="false" />
+            <element signature="method#start_with_symbol#0;class#Poly#0" expanded="false" />
+            <element signature="method#minmor#0;class#Poly#0" expanded="false" />
             <element signature="method#bracket_split#0;class#Poly#0" expanded="false" />
+            <element signature="method#remove#0;class#Poly#0" expanded="false" />
             <element signature="method#print_out#0;class#Poly#0" expanded="false" />
           </folding>
         </state>
@@ -1301,6 +1640,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#clone#0;class#Poly#0" expanded="false" />
+            <element signature="method#Poly#0;class#Poly#0" expanded="false" />
+            <element signature="method#find_variable#0;class#Poly#0" expanded="false" />
             <element signature="method#change_exp#0;class#Poly#0" expanded="false" />
             <element signature="method#findnumber#0;class#Poly#0" expanded="false" />
             <element signature="method#how_long_the_number#0;class#Poly#0" expanded="false" />
@@ -1308,7 +1650,12 @@
             <element signature="method#have_power_or_not_judge#0;class#Poly#0" expanded="false" />
             <element signature="method#number_add_to_list#0;class#Poly#0" expanded="false" />
             <element signature="method#start_with_number#0;class#Poly#0" expanded="false" />
+            <element signature="method#sym_name#0;class#Poly#0" expanded="false" />
+            <element signature="method#symbol_add_to_list#0;class#Poly#0" expanded="false" />
+            <element signature="method#start_with_symbol#0;class#Poly#0" expanded="false" />
+            <element signature="method#minmor#0;class#Poly#0" expanded="false" />
             <element signature="method#bracket_split#0;class#Poly#0" expanded="false" />
+            <element signature="method#remove#0;class#Poly#0" expanded="false" />
             <element signature="method#print_out#0;class#Poly#0" expanded="false" />
           </folding>
         </state>
@@ -1329,6 +1676,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#clone#0;class#Poly#0" expanded="false" />
+            <element signature="method#Poly#0;class#Poly#0" expanded="false" />
+            <element signature="method#find_variable#0;class#Poly#0" expanded="false" />
             <element signature="method#change_exp#0;class#Poly#0" expanded="false" />
             <element signature="method#findnumber#0;class#Poly#0" expanded="false" />
             <element signature="method#how_long_the_number#0;class#Poly#0" expanded="false" />
@@ -1336,7 +1686,12 @@
             <element signature="method#have_power_or_not_judge#0;class#Poly#0" expanded="false" />
             <element signature="method#number_add_to_list#0;class#Poly#0" expanded="false" />
             <element signature="method#start_with_number#0;class#Poly#0" expanded="false" />
+            <element signature="method#sym_name#0;class#Poly#0" expanded="false" />
+            <element signature="method#symbol_add_to_list#0;class#Poly#0" expanded="false" />
+            <element signature="method#start_with_symbol#0;class#Poly#0" expanded="false" />
+            <element signature="method#minmor#0;class#Poly#0" expanded="false" />
             <element signature="method#bracket_split#0;class#Poly#0" expanded="false" />
+            <element signature="method#remove#0;class#Poly#0" expanded="false" />
             <element signature="method#print_out#0;class#Poly#0" expanded="false" />
           </folding>
         </state>
@@ -1375,6 +1730,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="file://$PROJECT_DIR$/src/com/company/UnionTest.java" />
+    <entry file="jar:///usr/lib/jvm/java-8u11-sun/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47996">
+          <caret line="1917" column="0" selection-start-line="1917" selection-start-column="0" selection-end-line="1917" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#123856#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4677#4678#0" expanded="false" />
+            <element signature="e#4717#4718#0" expanded="false" />
+            <element signature="e#5690#5691#0" expanded="false" />
+            <element signature="e#5753#5754#0" expanded="false" />
+            <element signature="e#12762#12763#0" expanded="false" />
+            <element signature="e#12814#12815#0" expanded="false" />
+            <element signature="e#18445#18446#0" expanded="false" />
+            <element signature="e#18498#18499#0" expanded="false" />
+            <element signature="e#20391#20392#0" expanded="false" />
+            <element signature="e#20435#20436#0" expanded="false" />
+            <element signature="e#21625#21626#0" expanded="false" />
+            <element signature="e#21705#21706#0" expanded="false" />
+            <element signature="e#22450#22451#0" expanded="false" />
+            <element signature="e#22485#22486#0" expanded="false" />
+            <element signature="e#22736#22737#0" expanded="false" />
+            <element signature="e#22776#22777#0" expanded="false" />
+            <element signature="e#29126#29127#0" expanded="false" />
+            <element signature="e#29197#29198#0" expanded="false" />
+            <element signature="e#36057#36058#0" expanded="false" />
+            <element signature="e#36123#36124#0" expanded="false" />
+            <element signature="e#38033#38034#0" expanded="false" />
+            <element signature="e#38087#38088#0" expanded="false" />
+            <element signature="e#47179#47180#0" expanded="false" />
+            <element signature="e#47243#47244#0" expanded="false" />
+            <element signature="e#55441#55442#0" expanded="false" />
+            <element signature="e#55485#55486#0" expanded="false" />
+            <element signature="e#56078#56079#0" expanded="false" />
+            <element signature="e#56155#56156#0" expanded="false" />
+            <element signature="e#58122#58123#0" expanded="false" />
+            <element signature="e#58159#58160#0" expanded="false" />
+            <element signature="e#62501#62502#0" expanded="false" />
+            <element signature="e#62557#62558#0" expanded="false" />
+            <element signature="e#66098#66099#0" expanded="false" />
+            <element signature="e#66136#66137#0" expanded="false" />
+            <element signature="e#70390#70391#0" expanded="false" />
+            <element signature="e#70443#70444#0" expanded="false" />
+            <element signature="e#77881#77882#0" expanded="false" />
+            <element signature="e#77940#77941#0" expanded="false" />
+            <element signature="e#82257#82258#0" expanded="false" />
+            <element signature="e#82308#82309#0" expanded="false" />
+            <element signature="e#82612#82613#0" expanded="false" />
+            <element signature="e#82661#82662#0" expanded="false" />
+            <element signature="e#94239#94240#0" expanded="false" />
+            <element signature="e#94277#94278#0" expanded="false" />
+            <element signature="e#104220#104221#0" expanded="false" />
+            <element signature="e#104275#104276#0" expanded="false" />
+            <element signature="e#110741#110742#0" expanded="false" />
+            <element signature="e#110796#110797#0" expanded="false" />
+            <element signature="e#112888#112889#0" expanded="false" />
+            <element signature="e#112915#112916#0" expanded="false" />
+            <element signature="e#117438#117439#0" expanded="false" />
+            <element signature="e#117500#117501#0" expanded="false" />
+            <element signature="e#117950#117951#0" expanded="false" />
+            <element signature="e#117989#117990#0" expanded="false" />
+            <element signature="e#119001#119002#0" expanded="false" />
+            <element signature="e#119055#119056#0" expanded="false" />
+            <element signature="e#119704#119705#0" expanded="false" />
+            <element signature="e#119758#119759#0" expanded="false" />
+            <element signature="e#120027#120028#0" expanded="false" />
+            <element signature="e#120066#120067#0" expanded="false" />
+            <element signature="e#120434#120435#0" expanded="false" />
+            <element signature="e#120477#120478#0" expanded="false" />
+            <element signature="e#121272#121273#0" expanded="false" />
+            <element signature="e#121314#121315#0" expanded="false" />
+            <element signature="e#121729#121730#0" expanded="false" />
+            <element signature="e#121768#121769#0" expanded="false" />
+            <element signature="e#122190#122191#0" expanded="false" />
+            <element signature="e#122230#122231#0" expanded="false" />
+            <element signature="e#122660#122661#0" expanded="false" />
+            <element signature="e#122701#122702#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Var.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -1383,19 +1819,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8u11-sun/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="1917" column="0" selection-start-line="1917" selection-start-column="0" selection-end-line="1917" selection-end-column="0" />
+        <state relative-caret-position="312">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Poly.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="153" column="22" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
+        <state relative-caret-position="413">
+          <caret line="195" column="25" selection-start-line="195" selection-start-column="25" selection-end-line="195" selection-end-column="26" />
           <folding>
+            <element signature="method#clone#0;class#Poly#0" expanded="false" />
+            <element signature="method#Poly#0;class#Poly#0" expanded="false" />
+            <element signature="method#find_variable#0;class#Poly#0" expanded="false" />
             <element signature="method#change_exp#0;class#Poly#0" expanded="false" />
             <element signature="method#findnumber#0;class#Poly#0" expanded="false" />
             <element signature="method#how_long_the_number#0;class#Poly#0" expanded="false" />
@@ -1403,24 +1852,44 @@
             <element signature="method#have_power_or_not_judge#0;class#Poly#0" expanded="false" />
             <element signature="method#number_add_to_list#0;class#Poly#0" expanded="false" />
             <element signature="method#start_with_number#0;class#Poly#0" expanded="false" />
+            <element signature="method#sym_name#0;class#Poly#0" expanded="false" />
+            <element signature="method#symbol_add_to_list#0;class#Poly#0" expanded="false" />
+            <element signature="method#start_with_symbol#0;class#Poly#0" expanded="false" />
+            <element signature="method#minmor#0;class#Poly#0" expanded="false" />
             <element signature="method#bracket_split#0;class#Poly#0" expanded="false" />
+            <element signature="method#remove#0;class#Poly#0" expanded="false" />
             <element signature="method#print_out#0;class#Poly#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Union.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="121">
+          <caret line="89" column="26" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#clone#0;class#Union#0" expanded="false" />
+            <element signature="class#morpheme_obj#0;class#Union#0" expanded="false" />
+            <element signature="method#split_morpheme#0;class#Union#0" expanded="false" />
+            <element signature="method#equals#0;class#Union#0" expanded="false" />
+            <element signature="method#merge_same_item#0;class#Union#0" expanded="false" />
+            <element signature="method#turn_string_to_list#0;class#Union#0" expanded="false" />
+            <element signature="method#list_to_string#0;class#Union#0" expanded="false" />
+            <element signature="method#symbol_to_number#0;class#Union#0" expanded="false" />
+            <element signature="method#simply#0;class#Union#0" expanded="false" />
+            <element signature="method#power_1_ot_not#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative_single#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative_to_poly#0;class#Union#0" expanded="false" />
+            <element signature="method#derivative#0;class#Union#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Select.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="112">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1429,24 +1898,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/company/UnionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
+        <state relative-caret-position="-1121">
           <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Union.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="210" column="34" selection-start-line="210" selection-start-column="34" selection-end-line="210" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#clone#0;class#Union#0" expanded="false" />
-            <element signature="class#morpheme_obj#0;class#Union#0" expanded="false" />
-            <element signature="method#equals#0;class#Union#0" expanded="false" />
-            <element signature="method#merge_same_item#0;class#Union#0" expanded="false" />
           </folding>
         </state>
       </provider>
